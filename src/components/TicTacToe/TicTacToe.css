@@ -1,0 +1,80 @@
+.container {
+    text-align: center;
+    align-items: center;
+  }
+  
+  .title {
+    margin-top: 50px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .winner-message {
+    font-size: 24px;
+    color: yellow;
+    margin-bottom: 20px;
+  }
+  
+  .reset {
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    background: #888f92;
+    font-size: 20px;
+    color: #26ffcb;
+    margin-top: 20px;
+  }
+  
+  .box {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background: #1f3540;
+    border: 3px solid #0f1b21;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 470px;
+    width: 320px;
+  }
+  
+  .box img {
+    width: 60px;
+    height: 60px;
+    margin: 20px 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .box {
+      height: 80px;
+      width: 80px;
+    }
+  
+    .board {
+      width: 260px;
+    }
+  
+    .reset {
+      width: 100px;
+      height: 35px;
+      font-size: 18px;
+    }
+  
+    .box img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
